@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "lifeSaver",
+    "slug": "lifeSaver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/scr.png",
+    "splash": {
+      "image": "./assets/scr.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.olaniyihope.lifeSaver"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/scr.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.olaniyihope.lifeSaver"
+    },
+    "web": {
+      "favicon": "./assets/scr.png"
+    }
+  }
+}
